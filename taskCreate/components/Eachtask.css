@@ -1,0 +1,36 @@
+
+.container
+{
+    width: 500px;
+    height: 400px;
+    border: 1px solid green;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    margin: 20px;
+}
+button
+{
+    width: 60px;
+    height: 40px;
+    border-radius: 20%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+.Delete
+{
+    background-color: red;
+
+
+}
+.Update
+{
+    background-color: blue;
+
+}

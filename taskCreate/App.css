@@ -1,0 +1,22 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.App
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.tasklistdiv
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}

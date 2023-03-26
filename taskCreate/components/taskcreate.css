@@ -1,0 +1,54 @@
+.task
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.taskcreatediv
+{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+.formdiv
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.Taskcreatebutton
+{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(62, 143, 51);
+    border-radius: 8px;
+    color: white;
+    font-size: large;
+}
+.taskcreateinput
+{
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.tasktextarea
+{
+    width: 100%;
+    height: 100px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.updatedbutton
+{
+    background-color: blueviolet;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    font-size: large;
+}
