@@ -1,0 +1,11 @@
+.includescoursesdiv
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header
+{
+    text-align: center;
+    font-size: large;
+}

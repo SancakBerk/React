@@ -1,0 +1,31 @@
+.coursediv
+{
+    width: 25%;
+    height: 500px;
+    border: 1px solid grey;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 20px;
+    
+}
+.cardTitlePrice
+{  
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.cardDeleteBtn
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: purple;
+    border: 0px;
+    cursor: pointer;
+    color: white;
+}
+.btndiv
+{
+    display: flex;
+    justify-content: center;
+}
