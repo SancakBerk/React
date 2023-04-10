@@ -1,0 +1,18 @@
+.burgers
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.menudiv
+{
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+}
+.menuh1
+{
+    font-size: 50px;
+    padding-top: 60px;
+}

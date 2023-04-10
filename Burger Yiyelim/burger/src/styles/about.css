@@ -1,0 +1,21 @@
+.aboutdiv
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ımage
+{
+    margin: 20px;
+}
+.header
+{
+    font-size: 80px;
+    font-weight: 500;
+}
+.info
+{
+    text-align: center;
+    margin: 10px;
+}

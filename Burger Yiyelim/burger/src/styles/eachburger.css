@@ -1,0 +1,22 @@
+.eachburgercard
+{
+    width: 500px;
+    height: 600px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    cursor: pointer;
+    background-color: white;
+}
+.eachburgercard img 
+{
+    border-radius: 10%;
+}
+.eachburgercard:hover
+{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}

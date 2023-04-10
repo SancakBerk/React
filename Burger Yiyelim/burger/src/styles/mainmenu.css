@@ -1,0 +1,27 @@
+.mainmenudiv
+{
+    width: 100%;
+    height: 632.75px;
+    position: static;
+}
+.image
+{
+    width: 100%;
+    position: absolute;
+}
+.Siparişverbutton
+{
+    z-index: 100;
+    background-color: rgb(159, 51, 54);
+    border-radius: 15px;
+    font-size: large;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 100px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    color: white;
+
+}
