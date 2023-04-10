@@ -1,0 +1,27 @@
+.genelclass
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.buttonself
+{
+    width: 250px;
+    height: 50px;
+    background-color: blue;
+    font-size: large;
+    border-radius:15%;
+}
+.imagedivapp
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.buttonself:hover
+{
+    border: 1px solid black;
+}
