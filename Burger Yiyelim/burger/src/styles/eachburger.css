@@ -14,6 +14,13 @@
 .eachburgercard img 
 {
     border-radius: 10%;
+    object-fit: fill;
+
+}
+.eachburgercard img:hover
+{
+    transform: scale(1.05);
+    transition: 2s;
 }
 .eachburgercard:hover
 {
