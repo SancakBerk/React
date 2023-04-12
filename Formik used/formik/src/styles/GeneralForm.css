@@ -1,0 +1,53 @@
+p
+{
+    margin: 0px;
+}
+.generalform
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.generalform div
+{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;       
+}
+.generalform div input
+{
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(54, 63, 78);
+    margin-top: 2px;
+    outline: none;
+    font-size:medium;
+}
+input::after
+{
+    content: "asdasda";
+    color: white    ;
+}
+button
+{
+    width: 500px;
+    height: 40px;
+    background-color: rgb(16, 126, 17);
+    border-radius: 10px;
+    font-size: large;
+    color: #f3f3f3;
+    border: none;
+    cursor: pointer;
+}
+.input-error
+{
+    border-color: red;
+}   
+.error
+{
+    color: red;
+    font-size: 12px;
+
+}
