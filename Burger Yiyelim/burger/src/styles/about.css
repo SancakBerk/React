@@ -7,7 +7,8 @@
 }
 .ımage
 {
-    margin: 20px;
+    margin-top: 5px;
+    width:95vw;
 }
 .header
 {
@@ -18,4 +19,5 @@
 {
     text-align: center;
     margin: 10px;
+    width: 80vw;
 }

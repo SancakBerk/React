@@ -1,27 +1,45 @@
 .mainmenudiv
 {
-    width: 100%;
-    height: 632.75px;
-    position: static;
+    width: 100vw;
+    height: auto;  
+    position: relative;
 }
 .image
 {
+    width: 100vw;
+    height: auto;
+    position: relative;
+}
+.image img
+{
     width: 100%;
-    position: absolute;
+    display:block;
+    
+    object-fit: fill;
 }
 .Siparişverbutton
 {
-    z-index: 100;
     background-color: rgb(159, 51, 54);
     border-radius: 15px;
     font-size: large;
     position: absolute;
-    margin-top: 500px;
-    margin-left: 100px;
     width: 150px;
     height: 50px;
     border: none;
     cursor: pointer;
     color: white;
+    bottom: 10%;
+    left: 5%;
+}
+@media screen and (max-width:767px) 
+{
+    .Siparişverbutton
+{
+    font-size: small;
+    width: 100px;
+    height: 40px;
 
+}
+
+    
 }
