@@ -1,0 +1,21 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.App
+{
+    height: auto;
+    color: black;
+    margin: 2rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+.background_video
+{
+    position: absolute;
+    z-index: -5;
+}

@@ -1,0 +1,21 @@
+
+.navdiv {
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    border-radius: 10px;
+    border: none;
+    padding: 1vw;
+    box-shadow: grey 5px 5px 5px 5px;
+}
+.navdiv h2
+{
+    font-size: 40px;
+}
+svg
+{
+    font-size: 40px;
+}
