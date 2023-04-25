@@ -73,12 +73,10 @@
     width: 1200px;
     height: 600px;
     margin: 60px;
-    position: relative;
     overflow: hidden;
 }
 
 .slide {
-    position: absolute;
     width: 500%;
     height: 600px;
     display: flex;
@@ -167,7 +165,7 @@
 
     .slide {
         position: absolute;
-        width: 500%;
+        width: 3000px;
         height: 600px;
         display: flex;
         animation: slidebar 30s ease infinite;

@@ -1,7 +1,7 @@
 
 .navdiv {
     width: 95%;
-    height: auto;
+    height: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -10,6 +10,25 @@
     border: none;
     padding: 1vw;
     box-shadow: grey 5px 5px 5px 5px;
+    transition: 2s ease;
+
+}
+.scrollnav
+{
+    position: fixed;
+    height: 100%;
+    width: 50px;
+    box-shadow: none;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.2;
+    transition: 2s ease ;
+    flex-direction: column;
+    z-index: 0;
+}
+.name
+{
+    color: black;
 }
 .navdiv h2
 {

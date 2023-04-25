@@ -27,7 +27,7 @@ function mainpage() {
       </div>
 
       <h2 className='projectsh2' >Projects</h2>
-      <div className="slidemain">
+      <div className="slidemain" id='deneme'>
         <div className="slide">
           <div className="slideitem" >
             <img src={image1} alt="" />

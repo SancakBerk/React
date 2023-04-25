@@ -10,8 +10,6 @@ function App() {
       <Nav/>
       <Mainpage/>
       <Footer/>
-
-      
     </div>
   )
 }

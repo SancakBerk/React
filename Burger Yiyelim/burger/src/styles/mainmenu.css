@@ -1,3 +1,4 @@
+
 .mainmenudiv
 {
     width: 100vw;
@@ -10,12 +11,14 @@
     height: auto;
     position: relative;
 }
-.image img
+.imageitself
 {
-    width: 100%;
-    display:block;
-    
-    object-fit: fill;
+    background-image: url("../images/banneryeni.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 800px;
 }
 .Siparişverbutton
 {

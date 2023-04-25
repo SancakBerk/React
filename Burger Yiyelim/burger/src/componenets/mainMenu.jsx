@@ -8,14 +8,14 @@ function mainMenu() {
   return (
     <>
       <div className="mainmenudiv">
-          <div className="image">
-          <img src={Image} alt="" className='imageitself' />
+        <div className="image">
+          <div className="imageitself"></div>
           <Link to={"/Menu"}>
             <button className='Siparişverbutton'> Sipariş Ver </button>
           </Link>
-          </div>
         </div>
-        <Footer />
+      </div>
+      <Footer />
     </>
   )
 }
