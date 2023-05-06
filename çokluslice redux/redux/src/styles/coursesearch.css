@@ -1,0 +1,7 @@
+.coursesearchdiv
+{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
