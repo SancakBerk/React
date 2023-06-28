@@ -1,0 +1,466 @@
+.mainpage {
+  width: 100%;
+  height: 100vh;
+  background-color: #141110;
+  padding-top: 10vh;
+}
+.discover {
+  display: flex;
+}
+.right {
+  display: flex;
+  align-items: center;
+}
+.right img {
+  width: 40vw;
+  border-radius: 10px;
+}
+.left {
+  width: 50%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.leftinside {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+  height: 90vh;
+}
+.discover h1 {
+  color: #fffffe;
+  font-size: 60px;
+  width: 290px;
+}
+p {
+  color: #474444;
+  font-size: 20px;
+}
+.search {
+  width: 100%;
+  background-color: #fffffe;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.locationlogo svg {
+  color: blue;
+  margin-left: 10px;
+  font-size: 50px;
+}
+
+.searchbutton {
+  width: 120px;
+  height: 60px;
+  background-color: blue;
+  color: #fffffe;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+svg {
+  color: orange;
+}
+.values {
+  display: flex;
+  justify-content: space-between;
+}
+.topline p {
+  color: #fffffe;
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+}
+.bottomline p {
+  color: #474444;
+}
+.locationlogo {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+.margintop {
+  margin-top: 50px;
+}
+.deneme {
+  width: 50%;
+}
+.slider {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+}
+.center {
+  text-align: center;
+  margin: 0px;
+}
+.ourValue {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.ourValue .left {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ourValue .left img {
+  height: 50%;
+  max-width: 80%;
+  border-radius: 15px;
+}
+.ourValue .right {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+.ourvalueh2 {
+  color: orange;
+}
+.ourValue .right .center * {
+  margin: 0px;
+}
+.headerforourvalue {
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+.Contactus {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: #141110;
+}
+.Contactus .left {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contactuspp {
+  width: 100%;
+  text-align: center;
+}
+.contactusheader {
+  width: 100%;
+  height: auto;
+}
+.Contactus .right {
+  width: 50%;
+  height: 100vh;
+}
+.contactusall {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Call,
+.chat {
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 15px;
+}
+.Contactus .titleparagraph {
+  color: #fff;
+}
+.Contactus svg {
+  background-color: #eeedff;
+  font-size: 40px;
+  margin: 10px;
+}
+.contactbutton {
+  background-color: #eeedff;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  border: 0px;
+}
+.centerdiv {
+  width: 70%;
+  height: auto;
+}
+.Call:hover {
+  scale: 1.1;
+  transition: 0.4s;
+}
+.Call:hover .contactbutton,
+.chat:hover .contactbutton {
+  background-color: rgb(42, 118, 161);
+}
+.chat:hover {
+  scale: 1.1;
+  transition: 0.4s;
+}
+.Getstarted {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.start {
+  width: 90%;
+  height: 30vh;
+  background-color: #1c1f29;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.getstartedbutton {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #14111042;
+  color: #fff;
+  border: 1px solid #fff;
+  font-weight: 700;
+}
+
+.start h2 {
+  color: #fff;
+}
+.centercolumn {
+  height: 50%;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.info {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eachinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 50px;
+}
+
+.eachinfo a {
+  color: blue;
+  font-weight: 800;
+  font-size: 20px;
+}
+.wppng {
+  height: 75px;
+}
+.callpng {
+  height: 75px;
+}
+.pngdiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+  .topline p,
+  .bottomline p {
+    font-size: 20px;
+  }
+  .searchbutton {
+    font-size: 10px;
+    width: 100px;
+  }
+  .contactusall {
+    flex-direction: column;
+  }
+  .tab-content p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .discover {
+    flex-direction: column;
+    align-items: center;
+  }
+  .search {
+    width: 200px;
+  }
+  .discover {
+    height: auto;
+  }
+  .discover .left {
+    width: 100%;
+    height: 50vh;
+  }
+  .discover .right {
+    width: 100%;
+    height: 50vh;
+    background-color: #141110;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .discover .right img {
+    width: 75%;
+  }
+  .ourValue {
+    flex-direction: column;
+    height: auto;
+  }
+  .ourValue .left {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ourValue .right {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .headerforourvalue {
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Contactus {
+    flex-direction: column;
+    height: auto;
+    margin-top: 50px;
+  }
+  .Contactus .left {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .Contactus .right {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .discover .right {
+    height: auto;
+    padding: 50px;
+  }
+  .BestChoices {
+    height: auto;
+    padding: 50px;
+  }
+  .ourValue {
+    height: auto;
+    padding: 50px;
+  }
+  .headerforourvalue {
+    width: 100%;
+  }
+  .ourvaluedesc {
+    width: 100%;
+  }
+  .ourValue .left {
+    height: auto;
+  }
+  .ourValue .right {
+    height: auto;
+    padding: 50px;
+  }
+  .Contactus .left {
+    height: auto;
+  }
+  .centerdiv {
+    padding: 50px;
+  }
+  .contactusheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contactusall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .Contactus img {
+    width: 80%;
+  }
+  .Contactus .right {
+    height: auto;
+    padding: 20px;
+  }
+  .contactusall .call {
+    width: auto;
+    height: auto;
+  }
+  .titleparagraph {
+    text-align: center;
+  }
+  .info {
+    flex-direction: column;
+  }
+  .info * {
+    margin: 2px;
+  }
+  .flex {
+    width: 100%;
+    height: 100%;
+  }
+  .contactusall .Call {
+    width: 75%;
+  }
+  .contactusall .chat {
+    width: 75%;
+  }
+  .call .number {
+    margin-left: 50px;
+  }
+  .pngdiv img {
+    height: 75px;
+    width: auto;
+    margin: 10px;
+  }
+  .pngdiv {
+    width: auto;
+  }
+  .Call .number {
+    margin-left: 30px;
+  }
+}

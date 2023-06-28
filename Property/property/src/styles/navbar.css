@@ -1,0 +1,106 @@
+.navbar {
+  width: 100%;
+  background-color: #14111025;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 50px;
+  transition: all 2s;
+  position: fixed;
+  z-index: 20;
+}
+.hamburger {
+  width: auto;
+  height: auto;
+}
+.imagediv {
+  height: 8vh;
+  width: 8vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.headertitle h2 {
+  color: white;
+}
+.Allinks {
+  display: flex;
+  transition: all 2s ease;
+}
+.Allinks li:hover {
+  scale: 1.1;
+}
+a {
+  list-style: none;
+  color: #fff;
+  margin: 0px 20px;
+  font-size: 3vh;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.contact {
+  background-color: blue;
+  border-radius: 5px;
+  padding: 1vh;
+}
+.hamburger svg {
+  color: #fff;
+  display: none;
+}
+.responsivenavbar {
+  height: 40vh;
+  align-items: unset;
+  background-color: #141110;
+}
+.closehamburger {
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .hamburger svg {
+    display: block;
+    cursor: pointer;
+  }
+  .Allinks {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    flex-direction: column;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .Allinks a {
+    border: 1px grey solid;
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+    justify-content: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .displayblock {
+    display: block;
+  }
+  .displaynone {
+    display: none;
+  }
+}
+.visible {
+  visibility: visible;
+  opacity: 1;
+}
+.scrollopacity {
+  background-color: #1411102c;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.darknavbar {
+  color: #141110;
+}

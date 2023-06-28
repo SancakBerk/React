@@ -1,0 +1,19 @@
+.titleparagraph {
+  font-size: 40px;
+  font-weight: 900;
+}
+.dollar {
+  font-size: 40px;
+  color: orange;
+  font-weight: 900;
+}
+.carousel {
+  height: 90vh;
+  width: 100%;
+}
+.carousel img {
+  height: 90vh;
+}
+.dollar p {
+  background-color: #fff;
+}
